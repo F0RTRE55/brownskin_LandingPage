@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brownskin</title>
+
+	<!-- js -->
+	<script src="../assets/js/jquery-3.7.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="../assets/js/script.js"></script>
+		
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/pr.css">
+
+	<!-- font -->
+	<link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov-dynamic-subset.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="index container">
+		<div class="header__wrap">
+			<header id="header" class="header">
+				<p class="logo"><a href="../index.html"><img src="../assets/img/logo.svg" alt="brownskin logo"></a></p>
+				<ul class="header__gnb pc-only">
+					<li class="header__gnb-li">
+						<a href="about_greetings.html" class="tit-h4">회사소개</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="about_greetings.html">인사말</a></li>
+								<li class="header__gnb-sub-li"><a href="about_vision.html">비전</a></li>
+								<li class="header__gnb-sub-li"><a href="about_history.html">연혁</a></li>
+								<li class="header__gnb-sub-li"><a href="about_directions.html">오시는길</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="product_recycled.html" class="tit-h4">제품소개</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="product_recycled.html">재생 가죽</a></li>
+								<li class="header__gnb-sub-li"><a href="product_portfolio.html">포트폴리오</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="pr_news.html" class="tit-h4 on">PR</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="pr_news.html">소식</a></li>
+								<li class="header__gnb-sub-li"><a href="pr_notice.html">공지사항</a></li>
+								<li class="header__gnb-sub-li"><a href="pr_media.html">미디어</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="recruit_process.html" class="tit-h4">채용</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="recruit_process.html">채용절차</a></li>
+								<li class="header__gnb-sub-li"><a href="recruit_postings.html">채용공고</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="contact.html" class="tit-h4">문의</a>
+					</li>
+				</ul>
+				<div class="header__lang pc-only">
+					<div class="body-b-s header__lang-current">KR</div>
+					<ul class="body-s header__lang-ul">
+						<li class="header__lang-li"><a href="../../index.html">EN</a></li>
+						<li class="header__lang-li"><a href="../index.html">KR</a></li>
+						<li class="header__lang-li"><a href="../../jp/index.html">JP</a></li>
+						<li class="header__lang-li"><a href="../../fr/index.html">FR</a></li>
+						<li class="header__lang-li"><a href="../../de/index.html">DE</a></li>
+						<li class="header__lang-li"><a href="../../it/index.html">IT</a></li>
+					</ul>
+				</div>
+
+
+				<div class="header__mo-btn-wrap mo-only">
+					<div class="header__mo-lang">
+						<div class="body-b-s header__mo-lang-current">KR</div>
+						<ul class="body-s header__mo-lang-ul">
+							<li class="header__mo-lang-li"><a href="../../index.html">EN</a></li>
+							<li class="header__mo-lang-li"><a href="../index.html">KR</a></li>
+							<li class="header__mo-lang-li"><a href="../../jp/index.html">JP</a></li>
+							<li class="header__mo-lang-li"><a href="../../fr/index.html">FR</a></li>
+							<li class="header__mo-lang-li"><a href="../../de/index.html">DE</a></li>
+							<li class="header__mo-lang-li"><a href="../../it/index.html">IT</a></li>
+						</ul>
+					</div>
+					<p class="header__mo-btn mo-only"><img src="../assets/img/ico_menu.svg"></p>
+				</div>
+
+				<div class="header__mo-gnb-wrap mo-only">
+					<p class="header__mo-gnb-close"><img src="../assets/img/ico_close.svg"></p>
+					<ul class="header__mo-gnb">
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">회사소개</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="about_greetings.html">인사말</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_vision.html">비전</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_history.html">연혁</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_directions.html">오시는길</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">제품소개</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="product_recycled.html">재생 가죽</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="product_portfolio.html">포트폴리오</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">PR</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="pr_news.html">소식</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="pr_notice.html">공지사항</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="pr_media.html">미디어</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">채용</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="recruit_process.html">채용절차</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="recruit_postings.html">채용공고</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<a href="contact.html">
+									<p class="tit-h4 header__mo-gnb-li-tit">문의</p>
+									<p class="header__mo-gnb-li-ico-n"></p>
+								</a>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+				<div class="header__mo-gnb-bg mo-only"></div>
+			</header>
+				<div class="header__gnb-bg pc-only"></div>
+		</div>
+		<div class="header__lang-bg"></div>
+		<div class="header__mo-lang-bg"></div>
+		<div class="header-margin"></div>
+
+		<section id="prTitle">
+			<div class="pr-title">
+				<div class="layout pr-title__txtbox">
+					<h1 class="display-m pr-title__tit">pr</h1>
+					<p class="pr-title__line"></p>
+					<p class="body-l pr-title__txt">최신 소식을 확인하세요.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="newsList" class="layout news-list">
+			<div class="news-list__grid">
+
+				<div class="news-list__item">
+					<a href="pr_news_view06.html">
+						<div class="news-list__imgbox">
+							<div class="news-list__img"><img src="../assets/img/news06.jpg"></div>
+						</div>
+						<h4 class="tit-h4 news-list__tit">"기후테크, 아프리카로 가자"…남아공·케냐 진출 지원</h4>
+						<p class="body-s news-list__date">2025.08.14</p>
+					</a>
+				</div>
+				<div class="news-list__item">
+					<a href="pr_news_view05.html">
+						<div class="news-list__imgbox">
+							<div class="news-list__img"><img src="../assets/img/news05.png"></div>
+						</div>
+						<h4 class="tit-h4 news-list__tit">브라운스킨, ‘사회적기업 투자유치 역량강화 경기권역 IR 대회’ 우수기업 선정</h4>
+						<p class="body-s news-list__date">2024.11.20</p>
+					</a>
+				</div>
+				<div class="news-list__item">
+					<a href="pr_news_view04.html">
+						<div class="news-list__imgbox">
+							<div class="news-list__img"><img src="../assets/img/news04.jpg"></div>
+						</div>
+						<h4 class="tit-h4 news-list__tit">샛별 사회연대경제 조직에 도민 모의투자 진행</h4>
+						<p class="body-s news-list__date">2024.11.04</p>
+					</a>
+				</div>
+				<div class="news-list__item">
+					<a href="pr_news_view03.html">
+						<div class="news-list__imgbox">
+							<div class="news-list__img"><img src="../assets/img/news03.jpg"></div>
+						</div>
+						<h4 class="tit-h4 news-list__tit">사회적협동조합 사람과세상, '같이 함께 가치 공유 협약식' 진행</h4>
+						<p class="body-s news-list__date">2022.11.25</p>
+					</a>
+				</div>
+				<div class="news-list__item">
+					<a href="pr_news_view02.html">
+						<div class="news-list__imgbox">
+							<div class="news-list__img"><img src="../assets/img/news02.jpg"></div>
+						</div>
+						<h4 class="tit-h4 news-list__tit">[인터뷰] 남상규 브라운스킨 대표</h4>
+						<p class="body-s news-list__date">2022.10.19</p>
+					</a>
+				</div>
+				<div class="news-list__item">
+					<a href="pr_news_view.html">
+						<div class="news-list__imgbox">
+							<div class="news-list__img"><img src="../assets/img/news.png"></div>
+						</div>
+						<h4 class="tit-h4 news-list__tit">2022년 KOWEPO–평택 소셜벤처 창업오디션 7개팀 선정</h4>
+						<p class="body-s news-list__date">2022.09.01</p>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<div class="footer__wrap">
+			<footer id="footer" class="layout footer">
+				<div class="footer__grid">
+					<div class="footer__item-left">
+						<p class="footer__logo"><img src="../assets/img/logo_w.svg"></p>
+						<p class="body-s footer__addr">
+							<span class="footer__addr-txt">(본사) 경기 평택시 고덕국제5로 160 1층</span>
+							<span class="footer__addr-txt">(공장) 경기 군포시 엘에스로182번길 34-18 1층</span>
+							<span class="footer__addr-txt">(연구소) 경상북도 안동시 경동로 1375, 국립경국대학교 산학협력단 414호</span>
+							<span class="footer__addr-txt">E-mail : morris.nam@brownskin.kr</span>
+							<span class="footer__addr-txt">Tel : 010-7607-2106</span>
+						</p>
+						<p class="body-xs footer__copyright">Copyright ©Brownskin. All rights reserved.</p>
+					</div>
+					<div class="footer__item-right">
+						<p class="footer__sns">
+							<span class="footer__sns-ico"><a href="https://blog.naver.com/91morris"><img src="../assets/img/ico_blog.svg"></a></span>
+							<span class="footer__sns-ico"><a href="https://www.band.us/band/95764226"><img src="../assets/img/ico_band.svg"></a></span>
+						</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

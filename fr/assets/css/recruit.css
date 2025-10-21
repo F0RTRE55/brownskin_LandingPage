@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+.recruit-title{
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/recruit.jpg) no-repeat top/cover fixed;
+	min-height: max(240px, min(31vw, 480px));
+}
+
+.recruit-title__txtbox{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap:20px;
+	text-align: center;
+	color: var(--color-gray-00);
+}
+
+.recruit-title__tit{
+}
+
+.recruit-title__line{
+	display: block;
+	width: 1px;
+	height: max(20px, min(2.5vw, 40px));
+	background-color: var(--color-gray-00);
+}
+
+/* process */
+
+.process-step{
+	padding:120px 0;
+	box-sizing: border-box;
+}
+
+.process-step__grid{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap:20px;
+}
+
+.process-step__item{
+	background-color: var(--color-gray-00);
+	padding:20px 20px 24px;
+	box-sizing: border-box;
+	box-shadow: inset 0 0 0 1px var(--color-gray-20);
+	border-radius: 12px;
+	text-align: center;
+}
+
+.process-step__item-ico{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin:0 auto 20px;
+	border-radius: 100px;
+	background-color: var(--color-gray-05);
+}
+
+.process-step__item-ico img{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 48px;
+}
+
+.process-step__item-num{
+	color: var(--color-gray-70);
+}
+
+.process-info{
+	margin-bottom: 120px;
+}
+
+.process-info__list + .process-info__list{
+	margin-top: 40px;
+}
+
+.process-info__num{
+	color: var(--color-primary-50);
+}
+
+.process-info__tit{
+	margin-bottom: 12px;
+}
+
+.process-info__txt{
+	color: var(--color-gray-80);
+}
+
+.process-contact{
+	padding:64px 0 120px;
+	box-sizing: border-box;
+	background-color: var(--color-gray-05);
+	text-align: center;
+}
+
+.process-contact__txt{
+	margin-bottom: 32px;
+	color: var(--color-gray-80);
+}
+
+.process-contact__link a{
+	display: inline-flex;
+	align-items: center;
+	height: 44px;
+	padding:0 32px;
+	border-radius: 100px;
+	background-color: var(--color-primary-50);
+	color: var(--color-gray-00);
+}
+
+
+/* postings */
+.recruit-list{
+	padding:120px 0;
+	box-sizing: border-box;
+}
+
+.recruit-list__tr a{
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	align-items: center;
+	box-shadow: inset 0 -1px 0 0 var(--color-gray-20);
+}
+
+.recruit-list__tr-top a{
+	box-shadow: inset 0 -1px 0 0 var(--color-gray-20), inset 0 2px 0 0 var(--color-gray-90);
+}
+
+.recruit-list__tr-num{
+	text-align: center;
+	color: var(--color-gray-40);
+}
+
+.recruit-list__tr-content{
+	display: inline-flex;
+	flex-direction: column;
+	gap:12px;
+	padding:20px 12px;
+	box-sizing: border-box;
+}
+
+.recruit-list__tr-date{
+	color: var(--color-gray-70);
+}
+
+.recruit-view{
+	max-width: 800px;
+	margin:0 auto;
+	padding:120px 0;
+	box-sizing: border-box;
+}
+
+.recruit-view__date{
+	margin: 4px 0 20px;
+	padding-bottom: 20px;
+	box-shadow: inset 0 -1px 0 0 var(--color-gray-20);
+	color: var(--color-gray-70);
+}
+
+.recruit-view__img{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.recruit-view__label{
+	margin-bottom: 20px;
+	text-align: center;
+	color: var(--color-gray-70);
+}
+
+.recruit-view__tem{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.recruit-view__hr{
+	width: 100%;
+	height: 1px;
+	background-color: var(--color-gray-20);
+	margin:40px 0;
+}
+
+.recruit-view__link{
+	margin-top: 20px;
+	color: var(--color-gray-70);
+}
+
+.recruit-view__back{
+	margin:64px auto 0;
+	text-align: center;
+}
+
+.recruit-view__back a{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding:0 32px;
+	height: 44px;
+	border-radius: 8px;
+	color: var(--color-gray-00);
+	background-color: var(--color-gray-80);
+	transition: 0.3s;
+}
+
+.recruit-view__back a:hover{
+	background-color: var(--color-gray-90);
+}
+
+@media all and (max-width:1020px) {
+	.process-step__grid{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap:20px;
+	}
+}
+
+@media all and (max-width:768px) {
+	.process-step, .process-contact, .recruit-list, .recruit-view{
+		padding: 64px 0;
+	}
+
+	.process-info{
+		margin-bottom: 64px;
+	}
+}
+
+
+@media all and (max-width:360px) {
+	.recruit-list__tr a{
+		grid-template-columns: 64px 1fr;
+	}
+
+}

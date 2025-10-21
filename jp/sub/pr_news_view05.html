@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brownskin</title>
+
+	<!-- js -->
+	<script src="../assets/js/jquery-3.7.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="../assets/js/script.js"></script>
+		
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/pr.css">
+
+	<!-- font -->
+	<link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov-dynamic-subset.min.css">
+	<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="index container">
+		<div class="header__wrap">
+			<header id="header" class="header">
+				<p class="logo"><a href="../index.html"><img src="../assets/img/logo.svg" alt="brownskin logo"></a></p>
+				<ul class="header__gnb pc-only">
+					<li class="header__gnb-li">
+						<a href="about_greetings.html" class="tit-h4">会社概要</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="about_greetings.html">ご挨拶</a></li>
+								<li class="header__gnb-sub-li"><a href="about_vision.html">ビジョン</a></li>
+								<li class="header__gnb-sub-li"><a href="about_history.html">沿革</a></li>
+								<li class="header__gnb-sub-li"><a href="about_directions.html">アクセス</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="product_recycled.html" class="tit-h4">製品紹介</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="product_recycled.html">再生レザー</a></li>
+								<li class="header__gnb-sub-li"><a href="product_portfolio.html">ポートフォリオ</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="pr_news.html" class="tit-h4 on">PR</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="pr_news.html">ニュース</a></li>
+								<li class="header__gnb-sub-li"><a href="pr_notice.html">お知らせ</a></li>
+								<li class="header__gnb-sub-li"><a href="pr_media.html">メディア</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="recruit_process.html" class="tit-h4">採用</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="recruit_process.html">採用手続き</a></li>
+								<li class="header__gnb-sub-li"><a href="recruit_postings.html">採用情報</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="contact.html" class="tit-h4">お問い合わせ</a>
+					</li>
+				</ul>
+				<div class="header__lang pc-only">
+					<div class="body-b-s header__lang-current">JP</div>
+					<ul class="body-s header__lang-ul">
+						<li class="header__lang-li"><a href="../../index.html">EN</a></li>
+						<li class="header__lang-li"><a href="../../kr/index.html">KR</a></li>
+						<li class="header__lang-li"><a href="../index.html">JP</a></li>
+						<li class="header__lang-li"><a href="../../fr/index.html">FR</a></li>
+						<li class="header__lang-li"><a href="../../de/index.html">DE</a></li>
+						<li class="header__lang-li"><a href="../../it/index.html">IT</a></li>
+					</ul>
+				</div>
+
+
+				<div class="header__mo-btn-wrap mo-only">
+					<div class="header__mo-lang">
+						<div class="body-b-s header__mo-lang-current">JP</div>
+						<ul class="body-s header__mo-lang-ul">
+							<li class="header__mo-lang-li"><a href="../../index.html">EN</a></li>
+							<li class="header__mo-lang-li"><a href="../../kr/index.html">KR</a></li>
+							<li class="header__mo-lang-li"><a href="../index.html">JP</a></li>
+							<li class="header__mo-lang-li"><a href="../../fr/index.html">FR</a></li>
+							<li class="header__mo-lang-li"><a href="../../de/index.html">DE</a></li>
+							<li class="header__mo-lang-li"><a href="../../it/index.html">IT</a></li>
+						</ul>
+					</div>
+					<p class="header__mo-btn mo-only"><img src="../assets/img/ico_menu.svg"></p>
+				</div>
+
+				<div class="header__mo-gnb-wrap mo-only">
+					<p class="header__mo-gnb-close"><img src="../assets/img/ico_close.svg"></p>
+					<ul class="header__mo-gnb">
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">会社概要</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="about_greetings.html">ご挨拶</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_vision.html">ビジョン</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_history.html">沿革</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_directions.html">アクセス</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">製品紹介</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="product_recycled.html">再生レザー</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="product_portfolio.html">ポートフォリオ</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">PR</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="pr_news.html">ニュース</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="pr_notice.html">お知らせ</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="pr_media.html">メディア</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">採用</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="recruit_process.html">採用手続き</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="recruit_postings.html">採用情報</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<a href="contact.html">
+									<p class="tit-h4 header__mo-gnb-li-tit">お問い合わせ</p>
+									<p class="header__mo-gnb-li-ico-n"></p>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header__mo-gnb-bg mo-only"></div>
+			</header>
+				<div class="header__gnb-bg pc-only"></div>
+		</div>
+		<div class="header__lang-bg"></div>
+		<div class="header__mo-lang-bg"></div>
+		<div class="header-margin"></div>
+
+		<section id="prTitle">
+			<div class="pr-title">
+				<div class="layout pr-title__txtbox">
+					<h1 class="display-m pr-title__tit">pr</h1>
+					<p class="pr-title__line"></p>
+					<p class="body-l pr-title__txt">最新情報をご確認ください。</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="newsView" class="layout news-view">
+			<h2 class="tit-h2 news-view__tit">브라운스킨, ‘사회적기업 투자유치 역량강화 경기권역 IR 대회’ 우수기업 선정</h2>
+			<p class="body-s news-view__date">2024.11.20</p>
+			<div class="body-m news-view__container">
+
+				<p>주식회사 브라운스킨이 ‘2024년 사회적기업 투자유치 역량강화 경기권역 IR 대회’에서 우수기업으로 선정됐다. </p>
+
+				<p class="news-view__img"><img src="https://www.senews.kr/imgdata/senews_kr/202411/2024112020125540.png"></p>
+
+				<p>이번 대회는 고용노동부와 한국사회적기업진흥원이 주최하고 (사)함께만드는세상(사회연대은행)이 주관하며, 사회적 가치를 창출하는 혁신적인 기업을 발굴하고 지원하기 위해 마련됐다.<br/><br/>가죽 산업은 매년 약 60만 톤의 폐기물을 발생시키고, 이를 처리하는 데만 약 750억 원이 소요된다. 이 과정에서 크롬, 시안화물 등 250종 이상의 화학약품이 사용되며, 발암물질과 같은 유해 물질이 방출돼 심각한 대기와 수질 오염을 초래한다. 더불어 커피박 같은 식품 부산물은 연간 15만 톤이 발생하지만, 재활용률은 20% 미만에 불과하며 소각 시 이산화탄소보다 21배 높은 온실효과를 유발한다.<br/><br/>브라운스킨은 식품 부산물과 가죽 부산물을 95% 이상 자원 순환해 친환경 재생가죽을 개발한다. 특히 2년간의 연구개발을 통해 기존 커피박 재활용률을 20%에서 95% 이상으로 끌어올리며, 자원 순환 가죽의 새로운 가능성을 제시하고 있다.<br/><br/>브라운스킨의 재생가죽은 항균성과 소취 기능을 갖추고 있으며, 일반 가죽보다 1.5배 높은 인장 강도를 달성했다. 또한 스위스 SGS 유해성 인증과 한국신발피혁연구원의 강도 검증을 받았다. 이를 통해 기존 합성피혁이나 천연가죽과 차별화된 높은 품질과 환경친화적 가치를 제공한다.<br/><br/>가격 경쟁 면에서도 좋은 평가를 받고 있다. 브라운스킨은 식품 부산물 처리비용을 통해 원료를 확보하며, 경쟁 제품 대비 최대 75% 저렴한 가격으로 공급하고 있다. 또한 ODM 제조를 통한 수익 모델을 구축해 동종업계 대비 1.5배 높은 영업이익을 달성했다.<br/><br/>브라운스킨은 올해 감귤껍질과 카카오쉘을 활용한 재생가죽 개발을 완료하고 국내 연구소와 공장을 설립하고, 내년에는 아프리카 원자재 공급 기업과의 협업 및 해외 시장 확장을 통해 매출을 확대해나갈 계획이다.<br/><br/>브라운스킨 남상규 대표는 “지속 가능한 가죽 제품 개발로 환경 문제 해결에 기여하며, 자원의 순환으로 가죽 산업의 새로운 기준을 제시하고자 한다”며 “친환경 재생 가죽을 통해 글로벌 시장에서 경쟁력을 강화하겠다”는 비전을 밝혔다.<br/><br/>오는 23일 서울대학교 시흥캠퍼스에서 열리는 ‘2024 전국 사회적기업 투자유치 역량강화 IR 대회’에는 각 권역에서 선정된 우수기업 24개 사가 참여할 예정이며, 심화 멘토링과 IR Deck 디자인 지원을 통해 투자 유치 역량을 강화할 계획이다.</p>
+
+				<p class="body-s news-view__link">출처 : 사회적경제뉴스(https://www.senews.kr/22682)</p>
+			</div>
+			<div class="body-m news-view__back">
+				<a href="pr_news.html">목록</a>
+			</div>
+		</section>
+
+		<div class="footer__wrap">
+			<footer id="footer" class="layout footer">
+				<div class="footer__grid">
+					<div class="footer__item-left">
+						<p class="footer__logo"><img src="../assets/img/logo_w.svg"></p>
+						<p class="body-s footer__addr">
+							<span class="footer__addr-txt">(Headquarters) 160, Godeokgukje 5-ro, Pyeongtaek-si, Gyeonggi-do, Republic of Korea</span>
+							<span class="footer__addr-txt">(Factory) 34-18, LS-ro 182beon-gil, Gunpo-si, Gyeonggi-do, Republick of Korea</span>
+							<span class="footer__addr-txt">(Laboratory) 1375, Gyeongdong-ro, Andong-si, Gyeongsangbuk-do, Republic of Korea</span>
+							<span class="footer__addr-txt">E-mail : morris.nam@brownskin.kr</span>
+							<span class="footer__addr-txt">Tel : (+82) 10-7607-2106</span>
+						</p>
+						<p class="body-xs footer__copyright">Copyright ©Brownskin. All rights reserved.</p>
+					</div>
+					<div class="footer__item-right">
+						<p class="footer__sns">
+							<span class="footer__sns-ico"><a href="https://blog.naver.com/91morris"><img src="../assets/img/ico_blog.svg"></a></span>
+							<span class="footer__sns-ico"><a href="https://www.band.us/band/95764226"><img src="../assets/img/ico_band.svg"></a></span>
+						</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

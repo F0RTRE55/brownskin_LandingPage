@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brownskin</title>
+
+	<!-- js -->
+	<script src="../assets/js/jquery-3.7.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="../assets/js/script.js"></script>
+		
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/product.css">
+
+	<!-- font -->
+	<link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov-dynamic-subset.min.css">
+	<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="index container">
+		<div class="header__wrap">
+			<header id="header" class="header">
+				<p class="logo"><a href="../index.html"><img src="../assets/img/logo.svg" alt="brownskin logo"></a></p>
+				<ul class="header__gnb pc-only">
+					<li class="header__gnb-li">
+						<a href="about_greetings.html" class="tit-h4">会社概要</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="about_greetings.html">ご挨拶</a></li>
+								<li class="header__gnb-sub-li"><a href="about_vision.html">ビジョン</a></li>
+								<li class="header__gnb-sub-li"><a href="about_history.html">沿革</a></li>
+								<li class="header__gnb-sub-li"><a href="about_directions.html">アクセス</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="product_recycled.html" class="tit-h4 on">製品紹介</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="product_recycled.html">再生レザー</a></li>
+								<li class="header__gnb-sub-li"><a href="product_portfolio.html">ポートフォリオ</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="pr_news.html" class="tit-h4">PR</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="pr_news.html">ニュース</a></li>
+								<li class="header__gnb-sub-li"><a href="pr_notice.html">お知らせ</a></li>
+								<li class="header__gnb-sub-li"><a href="pr_media.html">メディア</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="recruit_process.html" class="tit-h4">採用</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="recruit_process.html">採用手続き</a></li>
+								<li class="header__gnb-sub-li"><a href="recruit_postings.html">採用情報</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="contact.html" class="tit-h4">お問い合わせ</a>
+					</li>
+				</ul>
+				<div class="header__lang pc-only">
+					<div class="body-b-s header__lang-current">JP</div>
+					<ul class="body-s header__lang-ul">
+						<li class="header__lang-li"><a href="../../index.html">EN</a></li>
+						<li class="header__lang-li"><a href="../../kr/index.html">KR</a></li>
+						<li class="header__lang-li"><a href="../index.html">JP</a></li>
+						<li class="header__lang-li"><a href="../../fr/index.html">FR</a></li>
+						<li class="header__lang-li"><a href="../../de/index.html">DE</a></li>
+						<li class="header__lang-li"><a href="../../it/index.html">IT</a></li>
+					</ul>
+				</div>
+
+
+				<div class="header__mo-btn-wrap mo-only">
+					<div class="header__mo-lang">
+						<div class="body-b-s header__mo-lang-current">JP</div>
+						<ul class="body-s header__mo-lang-ul">
+							<li class="header__mo-lang-li"><a href="../../index.html">EN</a></li>
+							<li class="header__mo-lang-li"><a href="../../kr/index.html">KR</a></li>
+							<li class="header__mo-lang-li"><a href="../index.html">JP</a></li>
+							<li class="header__mo-lang-li"><a href="../../fr/index.html">FR</a></li>
+							<li class="header__mo-lang-li"><a href="../../de/index.html">DE</a></li>
+							<li class="header__mo-lang-li"><a href="../../it/index.html">IT</a></li>
+						</ul>
+					</div>
+					<p class="header__mo-btn mo-only"><img src="../assets/img/ico_menu.svg"></p>
+				</div>
+
+				<div class="header__mo-gnb-wrap mo-only">
+					<p class="header__mo-gnb-close"><img src="../assets/img/ico_close.svg"></p>
+					<ul class="header__mo-gnb">
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">会社概要</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="about_greetings.html">ご挨拶</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_vision.html">ビジョン</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_history.html">沿革</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="about_directions.html">アクセス</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">製品紹介</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="product_recycled.html">再生レザー</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="product_portfolio.html">ポートフォリオ</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">PR</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="pr_news.html">ニュース</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="pr_notice.html">お知らせ</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="pr_media.html">メディア</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">採用</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="recruit_process.html">採用手続き</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="recruit_postings.html">採用情報</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<a href="contact.html">
+									<p class="tit-h4 header__mo-gnb-li-tit">お問い合わせ</p>
+									<p class="header__mo-gnb-li-ico-n"></p>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header__mo-gnb-bg mo-only"></div>
+			</header>
+				<div class="header__gnb-bg pc-only"></div>
+		</div>
+		<div class="header__lang-bg"></div>
+		<div class="header__mo-lang-bg"></div>
+		<div class="header-margin"></div>
+
+		<section id="productTitle">
+			<div class="product-title">
+				<div class="layout product-title__txtbox">
+					<h1 class="display-m product-title__tit">製品紹介</h1>
+					<p class="product-title__line"></p>
+					<p class="body-l product-title__txt">革新的で持続可能な製品をご覧ください。</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="recycledInfo" class="layout recycled-info">
+			<h1 class="display-s recycled-info__tit">農作物副産物ベースの再生皮革</h1>
+			<div class="body-l recycled-info__txt">私たちが使用する再生皮革は、従来の皮革の環境問題を解決するために生まれました。<br/>穀物の殻、果物の残渣、野菜の副産物など廃棄される農産物資源をアップサイクルし、皮革の質感と耐久性をそのまま再現した環境に優しい素材です。</div>
+		</section>
+
+		<section id="recycledProblem" class="recycled-problem">
+			<div class="layout recycled-problem__grid">
+				<div class="recycled-problem__item-img">
+					<div class="recycled-problem__img-wrap">
+						<img src="../assets/img/recycled.png">
+					</div>
+				</div>
+				<div class="recycled-problem__item-txtbox">
+					<h1 class="display-s recycled-problem__item-tit">Problem</h1>
+					<div class="body-l recycled-problem__item-txt">皮革産業は世界的に、相当な温室効果ガス排出と有害化学物質排出の問題を抱えています。<br/><br/>私たちはこれらの排出を削減し、廃棄された資源に新たな命を吹き込むことで、環境保護と社会的価値創出という二つの目標を同時に達成します。</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="recycledProcess" class="layout recycled-process">
+			<div class="recycled-process__grid">
+				<div class="recycled-process__item">
+					<p class="recycled-process__item-img"><img src="../assets/img/recycled02.svg"></p>
+					<p class="body-b-m recycled-process__item-step">Step 1</p>
+					<p class="body-m recycled-process__item-txt">分離・排出</p>
+				</div>
+				<div class="recycled-process__item">
+					<p class="recycled-process__item-img"><img src="../assets/img/recycled03.svg"></p>
+					<p class="body-b-m recycled-process__item-step">Step 2</p>
+					<p class="body-m recycled-process__item-txt">成分発掘及び原料化テスト</p>
+				</div>
+				<div class="recycled-process__item">
+					<p class="recycled-process__item-img"><img src="../assets/img/recycled04.svg"></p>
+					<p class="body-b-m recycled-process__item-step">Step 3</p>
+					<p class="body-m recycled-process__item-txt">高温乾燥および一次粉砕</p>
+				</div>
+				<div class="recycled-process__item">
+					<p class="recycled-process__item-img"><img src="../assets/img/recycled05.svg"></p>
+					<p class="body-b-m recycled-process__item-step">Step 4</p>
+					<p class="body-m recycled-process__item-txt">凍結乾燥および二次粉砕</p>
+				</div>
+				<div class="recycled-process__item">
+					<p class="recycled-process__item-img"><img src="../assets/img/recycled06.svg"></p>
+					<p class="body-b-m recycled-process__item-step">Step 5</p>
+					<p class="body-m recycled-process__item-txt">物理的、機械的、生物学的処理</p>
+				</div>
+				<div class="recycled-process__item">
+					<p class="recycled-process__item-img"><img src="../assets/img/recycled07.svg"></p>
+					<p class="body-b-m recycled-process__item-step">Step 6</p>
+					<p class="body-m recycled-process__item-txt">保管・流通</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="recycledEffect" class="recycled-effect">
+			<div class="tit-h2 recycled-effect__tit">再生皮革の効能</div>
+			<div class="layout recycled-effect__grid">
+				<div class="recycled-effect__item">
+					<p class="body-s recycled-effect__item-num">01</p>
+					<h4 class="tit-h4 recycled-effect__item-tit">炭素削減</h4>
+					<p class="body-m recycled-effect__item-txt">食品副産物のリサイクルにより二酸化炭素排出量を大幅に削減します。</p>
+				</div>
+				<div class="recycled-effect__item">
+					<p class="body-s recycled-effect__item-num">02</p>
+					<h4 class="tit-h4 recycled-effect__item-tit">廃棄物削減</h4>
+					<p class="body-m recycled-effect__item-txt">農業および食品廃棄物を資源としてリサイクルします。</p>
+				</div>
+				<div class="recycled-effect__item">
+					<p class="body-s recycled-effect__item-num">03</p>
+					<h4 class="tit-h4 recycled-effect__item-tit">地域協力</h4>
+					<p class="body-m recycled-effect__item-txt">農民と地域社会との協力を通じて経済的価値を共有します。</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="footer__wrap">
+			<footer id="footer" class="layout footer">
+				<div class="footer__grid">
+					<div class="footer__item-left">
+						<p class="footer__logo"><img src="../assets/img/logo_w.svg"></p>
+						<p class="body-s footer__addr">
+							<span class="footer__addr-txt">(Headquarters) 160, Godeokgukje 5-ro, Pyeongtaek-si, Gyeonggi-do, Republic of Korea</span>
+							<span class="footer__addr-txt">(Factory) 34-18, LS-ro 182beon-gil, Gunpo-si, Gyeonggi-do, Republick of Korea</span>
+							<span class="footer__addr-txt">(Laboratory) 1375, Gyeongdong-ro, Andong-si, Gyeongsangbuk-do, Republic of Korea</span>
+							<span class="footer__addr-txt">E-mail : morris.nam@brownskin.kr</span>
+							<span class="footer__addr-txt">Tel : (+82) 10-7607-2106</span>
+						</p>
+						<p class="body-xs footer__copyright">Copyright ©Brownskin. All rights reserved.</p>
+					</div>
+					<div class="footer__item-right">
+						<p class="footer__sns">
+							<span class="footer__sns-ico"><a href="https://blog.naver.com/91morris"><img src="../assets/img/ico_blog.svg"></a></span>
+							<span class="footer__sns-ico"><a href="https://www.band.us/band/95764226"><img src="../assets/img/ico_band.svg"></a></span>
+						</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>BrownSkin</title>
+	<title>Brownskin</title>
 
 	<!-- js -->
 	<script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -12,6 +12,7 @@
 		
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
 	<!-- font -->
 	<link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov-dynamic-subset.min.css">
@@ -23,10 +24,151 @@
 <body>
 	<div class="index container">
 		<div class="header__wrap">
-			<header id="header" class="layout header">
-				<p class="logo"><img src="assets/img/logo.svg" alt="brownskin logo"></p>
+			<header id="header" class="header">
+				<p class="logo"><a href="index.html"><img src="assets/img/logo.svg" alt="brownskin logo"></a></p>
+				<ul class="header__gnb pc-only">
+					<li class="header__gnb-li">
+						<a href="sub/about_greetings.html" class="tit-h4">About</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="sub/about_greetings.html">Greetings</a></li>
+								<li class="header__gnb-sub-li"><a href="sub/about_vision.html">Vision</a></li>
+								<li class="header__gnb-sub-li"><a href="sub/about_history.html">History</a></li>
+								<li class="header__gnb-sub-li"><a href="sub/about_directions.html">Directions</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="sub/product_recycled.html" class="tit-h4">Product</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="sub/product_recycled.html">Recycled leather</a></li>
+								<li class="header__gnb-sub-li"><a href="sub/product_portfolio.html">Portfolio</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="sub/pr_news.html" class="tit-h4">PR</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="sub/pr_news.html">News</a></li>
+								<li class="header__gnb-sub-li"><a href="sub/pr_notice.html">Notice</a></li>
+								<li class="header__gnb-sub-li"><a href="sub/pr_media.html">Media</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="sub/recruit_process.html" class="tit-h4">Recruit</a>
+						<div class="header__gnb-sub">
+							<ul class="body-m header__gnb-sub-ul">
+								<li class="header__gnb-sub-li"><a href="sub/recruit_process.html">Process</a></li>
+								<li class="header__gnb-sub-li"><a href="sub/recruit_postings.html">Job Postings</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header__gnb-li">
+						<a href="sub/contact.html" class="tit-h4">Contact</a>
+					</li>
+				</ul>
+				<div class="header__lang pc-only">
+					<div class="body-b-s header__lang-current">EN</div>
+					<ul class="body-s header__lang-ul">
+						<li class="header__lang-li"><a href="index.html">EN</a></li>
+						<li class="header__lang-li"><a href="kr/index.html">KR</a></li>
+						<li class="header__lang-li"><a href="jp/index.html">JP</a></li>
+						<li class="header__lang-li"><a href="fr/index.html">FR</a></li>
+						<li class="header__lang-li"><a href="de/index.html">DE</a></li>
+						<li class="header__lang-li"><a href="it/index.html">IT</a></li>
+					</ul>
+				</div>
+
+
+				<div class="header__mo-btn-wrap mo-only">
+					<div class="header__mo-lang">
+						<div class="body-b-s header__mo-lang-current">EN</div>
+						<ul class="body-s header__mo-lang-ul">
+							<li class="header__mo-lang-li"><a href="index.html">EN</a></li>
+							<li class="header__mo-lang-li"><a href="kr/index.html">KR</a></li>
+							<li class="header__mo-lang-li"><a href="jp/index.html">JP</a></li>
+							<li class="header__mo-lang-li"><a href="fr/index.html">FR</a></li>
+							<li class="header__mo-lang-li"><a href="de/index.html">DE</a></li>
+							<li class="header__mo-lang-li"><a href="it/index.html">IT</a></li>
+						</ul>
+					</div>
+					<p class="header__mo-btn mo-only"><img src="assets/img/ico_menu.svg"></p>
+				</div>
+
+				<div class="header__mo-gnb-wrap mo-only">
+					<p class="header__mo-gnb-close"><img src="assets/img/ico_close.svg"></p>
+					<ul class="header__mo-gnb">
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">About</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="sub/about_greetings.html">Greetings</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="sub/about_vision.html">Vision</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="sub/about_history.html">History</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="sub/about_directions.html">Directions</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">Product</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="sub/product_recycled.html">Recycled leather</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="sub/product_portfolio.html">Portfolio</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">PR</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="sub/pr_news.html">News</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="sub/pr_notice.html">Notice</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="sub/pr_media.html">Media</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<p class="tit-h4 header__mo-gnb-li-tit">Recruit</p>
+								<p class="header__mo-gnb-li-ico"></p>
+							</div>
+							<div class="header__mo-gnb-sub">
+								<ul class="body-m header__mo-gnb-sub-ul">
+									<li class="header__mo-gnb-sub-li"><a href="sub/recruit_process.html">Process</a></li>
+									<li class="header__mo-gnb-sub-li"><a href="sub/recruit_postings.html">Job Postings</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__mo-gnb-li">
+							<div class="header__mo-gnb-li-wrap">
+								<a href="sub/contact.html">
+									<p class="tit-h4 header__mo-gnb-li-tit">Contact</p>
+									<p class="header__mo-gnb-li-ico-n"></p>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header__mo-gnb-bg mo-only"></div>
 			</header>
+				<div class="header__gnb-bg pc-only"></div>
 		</div>
+		<div class="header__lang-bg"></div>
+		<div class="header__mo-lang-bg"></div>
+		<div class="header-margin"></div>
 
 
 
@@ -39,7 +181,7 @@
 						<p>Leather By-Products</p>
 					</div>
 					<div class="index-banner__txt body-l">
-						<p>BrownSkin recycles more than 95% of food and leather byproducts to create eco-friendly functional recycled leather,</p>
+						<p>Brownskin recycles more than 95% of food and leather byproducts to create eco-friendly functional recycled leather,</p>
 						<p>using coffee grounds, citrus peel, cocoa shells, and beer grounds as its main raw materials.</p>
 					</div>
 				</div>
@@ -78,33 +220,33 @@
 
 
 
-		<section id="indexHistory" class="layout index-history">
-			<div class="index-history__tit display-m">Collaboration</div>
-			<p class="index-history__txt body-xl">Supplied various products through collaboration with LOTTE, GS Retail, KAKAO, Maison 21G, etc</p>
-			<div class="index-history__grid body-b-l">
-				<div class="index-history__item">
-					<img src="assets/img/index_history.png">
-					<p class="index-history__align">GSRetail X MAISON 21G</p>
+		<section id="indexCollabo" class="layout index-collabo">
+			<div class="index-collabo__tit display-m">Collaboration</div>
+			<p class="index-collabo__txt body-xl">Supplied various products through collaboration with LOTTE, GS Retail, KAKAO, Maison 21G, etc</p>
+			<div class="index-collabo__grid body-b-l">
+				<div class="index-collabo__item">
+					<img src="assets/img/index_collabo.png">
+					<p class="index-collabo__align">GSRetail X MAISON 21G</p>
 				</div>
-				<div class="index-history__item">
-					<img src="assets/img/index_history_02.png">
-					<p class="index-history__align2">KAKAO X JEJU</p>
+				<div class="index-collabo__item">
+					<img src="assets/img/index_collabo_02.png">
+					<p class="index-collabo__align2">KAKAO X JEJU</p>
 				</div>
-				<div class="index-history__item">
-					<img src="assets/img/index_history_03.png">
-					<p class="index-history__align">2024 KOREA - AFRICA SUMMIT</p>
+				<div class="index-collabo__item">
+					<img src="assets/img/index_collabo_03.png">
+					<p class="index-collabo__align">2024 KOREA - AFRICA SUMMIT</p>
 				</div>
-				<div class="index-history__item">
-					<img src="assets/img/index_history_04.png">
-					<p class="index-history__align">LOTTE</p>
+				<div class="index-collabo__item">
+					<img src="assets/img/index_collabo_04.png">
+					<p class="index-collabo__align">LOTTE</p>
 				</div>
-				<div class="index-history__item">
-					<img src="assets/img/index_history_05.png">
-					<p class="index-history__align">OUTBACK</p>
+				<div class="index-collabo__item">
+					<img src="assets/img/index_collabo_05.png">
+					<p class="index-collabo__align">OUTBACK</p>
 				</div>
-				<div class="index-history__item">
-					<img src="assets/img/index_history_06.png">
-					<p class="index-history__align2">TIMBERLAND</p>
+				<div class="index-collabo__item">
+					<img src="assets/img/index_collabo_06.png">
+					<p class="index-collabo__align2">TIMBERLAND</p>
 				</div>
 			</div>
 		</section>
@@ -154,9 +296,34 @@
 			</div>
 			<div class="index-contact__flex">
 				<p class="index-contact__ico"><img src="assets/img/index_contact02.svg"></p>
-				<p class="body-m">010-7607-2106</p>
+				<p class="body-m">(+82) 10-7607-2106</p>
 			</div>
 		</section>
+
+		<div class="footer__wrap">
+			<footer id="footer" class="layout footer">
+				<div class="footer__grid">
+					<div class="footer__item-left">
+						<p class="footer__logo"><img src="assets/img/logo_w.svg"></p>
+						<p class="body-s footer__addr">
+							<span class="footer__addr-txt">(Headquarters) 160, Godeokgukje 5-ro, Pyeongtaek-si, Gyeonggi-do, Republic of Korea</span>
+							<span class="footer__addr-txt">(Factory) 34-18, LS-ro 182beon-gil, Gunpo-si, Gyeonggi-do, Republick of Korea</span>
+							<span class="footer__addr-txt">(Laboratory) 1375, Gyeongdong-ro, Andong-si, Gyeongsangbuk-do, Republic of Korea</span>
+							<span class="footer__addr-txt">E-mail : morris.nam@brownskin.kr</span>
+							<span class="footer__addr-txt">Tel : (+82) 10-7607-2106</span>
+						</p>
+						<p class="body-xs footer__copyright">Copyright ©Brownskin. All rights reserved.</p>
+					</div>
+					<div class="footer__item-right">
+						<p class="footer__sns">
+							<span class="footer__sns-ico"><a href="https://blog.naver.com/91morris"><img src="assets/img/ico_blog.svg"></a></span>
+							<span class="footer__sns-ico"><a href="https://www.band.us/band/95764226"><img src="assets/img/ico_band.svg"></a></span>
+						</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		
 	</div>
 </body>
 </html>
